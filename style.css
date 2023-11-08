@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-bg-color{
+    background-color: rgba(106, 176, 161, 0.507);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 0px 12px;
+    font-family: 'Bodoni Moda', serif;
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 14px;  
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: rgb(51, 48, 143);
+    font-size: 20px;
+}
+
+.page{
+    background-color:rgba(248, 253, 221, 0.814);
+}
+
+.marguee{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 100%;
+    font-family: 'Bodoni Moda', serif;
+}
+
+h1 span{
+    color:aliceblue;
+    font-size: 24px;
+    padding: 10px;
+}
+
+h2{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 100%;
+    font-family: 'Bodoni Moda', serif;
+}
+
+h3{
+    position: absolute;
+    top: 280px;
+    left: 400px;
+    width: 100%;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.shop-now{
+    text-transform:capitalize;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    border-radius: 5px;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card-part {
+    border: 1px solid rgba(248, 253, 221, 0.814);
+    padding: 50px 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 500px;
+    gap: 5px; 
+  }
+
+  .card-yazi{
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .card a {
+    font-size: 24px;
+  }
+
+  .yazi{
+    font-size: 30px;
+    color: rgb(144, 17, 0);
+  }
+
+  .follow-part{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+  }
+
+ .footer-list{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+ }
+
+ .contain{
+    font-size: 20px;
+    background-color: rgba(81, 63, 41, 0.782);
+    padding: 20px;
+ }
+
+
+ /* contact page */
+
+
+ .contact-yazi{
+    font-size: 50px;
+    display: flex;
+    justify-content:center ;
+    padding-top: 100px;
+    color: rgb(0, 56, 104);
+ }
+
+ .text-white{
+    color: white;
+ }
+
+ .bg-contact{
+    background-image: url(./image/bg-sea.jpg);
+    height: 100%;
+ }
+
+ .c-middle-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 18px;
+ }
+
+ .c-liste{
+    list-style-type: none;
+    color: rgb(210, 172, 97);
+ }
+
+ .c-form{
+   display: inline;
+   box-sizing: border-box;
+   font-size: 24px;
+   color: rgb(199, 200, 201)
+ }
+
+ .btn {
+  background-color: rgba(30, 251, 255, 0.533);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+ .form-control{
+    display: flex;
+    margin-left: 680px;
+    margin-top: 20px; 
+ }
+
+ input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(0, 4, 255);
+    background-color: rgba(111, 173, 173, 0);
+  }
+
+  input[type=email] {
+    border: none;
+    border-bottom: 2px solid rgb(8, 0, 255);
+    background-color: rgba(111, 173, 173, 0);
+  }
+
+  .map{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  /* shop page */
+
+  .card-shop {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    gap: 16px;
+  }
+  
+   .price {
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+  }
+  
+  .card-shop button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(37, 60, 28);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card-shop button:hover {
+    opacity: 0.7;
+  }
+
+  .shop-page{
+    background-color: rgba(85, 107, 47, 0.678);
+  }
+
+  .disp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding: 100px;
+  }
